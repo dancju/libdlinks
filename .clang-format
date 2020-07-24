@@ -1,0 +1,8 @@
+---
+BasedOnStyle: WebKit
+AccessModifierOffset: -2
+BreakBeforeBraces: Attach
+BreakConstructorInitializers: AfterColon
+ColumnLimit: 80
+IncludeBlocks: Merge
+IndentWidth: 2
