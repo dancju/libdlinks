@@ -1,6 +1,4 @@
-This is a C++ library of [Dancing Links](https://en.wikipedia.org/wiki/Dancing_Links). It contains solvers for the [exact cover problem](https://en.wikipedia.org/wiki/Exact_cover) and [Sudoku](https://en.wikipedia.org/wiki/Dancing_Links). It features a generator pattern when generating puzzle solutions with the help of [Boost.Coroutine](http://www.boost.org/libs/coroutine).
-
-Visulisation, and support of more puzzles that could reduce to the exact cover problem, such as [Pentomino](https://en.wikipedia.org/wiki/Pentomino), [Polycube](https://en.wikipedia.org/wiki/Polycube), or the [n queens puzzle](https://en.wikipedia.org/wiki/Eight_queens_puzzle) are available for sponsorship. 
+This is a C++ library of [Dancing Links](https://en.wikipedia.org/wiki/Dancing_Links). It contains solvers for the [exact cover problem (ECP)](https://en.wikipedia.org/wiki/Exact_cover) and [Sudoku](https://en.wikipedia.org/wiki/Dancing_Links). It features a generator pattern when generating puzzle solutions with the help of [Boost.Coroutine](http://www.boost.org/libs/coroutine).
 
 ## Usage
 
@@ -82,3 +80,5 @@ for (array<int8_t, 81>& s : solutions) {
 
 - switch from Boost.Coroutine to await & yield when C++20 is supported
 - coverage test
+- visulisation
+- the support of more puzzles that could reduce to ECP, such as [Pentomino](https://en.wikipedia.org/wiki/Pentomino), [Polycube](https://en.wikipedia.org/wiki/Polycube), and the [n queens puzzle](https://en.wikipedia.org/wiki/Eight_queens_puzzle)
